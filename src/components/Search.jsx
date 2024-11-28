@@ -8,7 +8,7 @@ const Search = ({ handleSearch, username, getUser }) => {
           </div>
           {
             username.id && (
-              <div onClick={() => getUser(username.login)} className="mx-auto flex items-center gap-4 p-2 w-[80%] sm:w-[600px] rounded-lg bg-stats">
+              <div onClick={() => getUser(username.login)} className="mx-auto flex items-center cursor-pointer gap-4 p-2 w-[80%] sm:w-[600px] rounded-lg bg-stats">
                 <img src={username.avatar_url} alt={username.name} className='w-14 h-14 rounded-lg' />
                 <div>
                   <h3 className='text-lg font-bold text-text'>
