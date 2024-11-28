@@ -3,7 +3,7 @@ const UserInfo = ({ user }) => {
         <div className='flex flex-col items-center'>
             <div className='flex flex-col sm:flex-row w-[75%] min-w-72 gap-16 pt-4 '>
                 <div className='flex flex-col w-36'>
-                <img src={user.avatar_url} alt={user.name} className='w-32 h-32 relative border-background border-8 rounded-lg top-[-50px] bg-black'/>
+                <img src={user.avatar_url} alt={user.name} className='w-28 h-28 relative border-background border-8 rounded-xl top-[-55px] bg-black'/>
                 <div className='w-[75%] min-w-72'>
                     <h2 className='text-3xl font-bold text-text'>{user.name || user.login}</h2>
                     <p className='text-text-secondary font-normal'>{user.bio}</p>

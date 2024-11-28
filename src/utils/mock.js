@@ -28,6 +28,45 @@ const defaultUser = {
       },
       "updated_at": "2024-11-26T12:13:08Z",
       "forks_count": 0
+    },
+    {
+      "id": 223,
+      "name": "React + Vite",
+      "html_url": "https://github.com/Rubenbot07/React-Vite",
+      "description": "React + Vite",
+      "stargazers_count": 0,
+      "license": {
+        "name": "MIT",
+        "spdx_id": "MIT"
+      },
+      "updated_at": "2024-11-26T12:13:08Z",
+      "forks_count": 0
+    },
+    {
+      "id": 323,
+      "name": "React + Vite",
+      "html_url": "https://github.com/Rubenbot07/React-Vite",
+      "description": "React + Vite",
+      "stargazers_count": 0,
+      "license": {
+        "name": "MIT",
+        "spdx_id": "MIT"
+      },
+      "updated_at": "2024-11-26T12:13:08Z",
+      "forks_count": 0
+    },
+    {
+      "id": 423,
+      "name": "React + Vite",
+      "html_url": "https://github.com/Rubenbot07/React-Vite",
+      "description": "React + Vite",
+      "stargazers_count": 0,
+      "license": {
+        "name": "MIT",
+        "spdx_id": "MIT"
+      },
+      "updated_at": "2024-11-26T12:13:08Z",
+      "forks_count": 0
     }
   ]
 
