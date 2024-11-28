@@ -7,7 +7,13 @@ import Search from './components/Search'
 import useGetData from './services/useGetData'
 function App() {
 
-  const { getName, getUser, username, user, repos, setUsername } = useGetData({defaultUser, defaultRepos})
+  const { 
+    getName, 
+    getUser, 
+    username, 
+    user, 
+    repos, 
+    setUsername } = useGetData({defaultUser, defaultRepos})
   const handleSearch = (name) => {
     debouncedSearch(name)
   }
